@@ -1,0 +1,153 @@
+body
+  {
+     background-image: url("/static/images/background_pic.jpg");
+     background-size: cover;
+     height: 100%;
+     overflow: hidden;
+  }
+
+.header
+  {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     top: 0px;
+     background-color: #f5f5f5;
+     height :10%;
+  }
+
+.nav-items
+  {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #f5f5f5;
+     margin-right: 20px;
+  }
+
+.nav-items a
+  {
+     text-decoration: none;
+     color: #002;
+     padding: 35px 20px;
+  }
+
+/*CSS for Main*/
+.section1{
+	background-color:blue;
+	width:60%;
+	float:left;
+	height:80vh;
+	border-right: 1vw solid #F5E5D6;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.section2{
+	width:40%;
+	float:left;
+	height:80vh;
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+
+.section2 .login{
+        width: 40px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+.section2 h2{
+    text-align: center;
+    color: #277582;
+    padding: 40px;
+}
+.section2 label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+.section2 #EAddr{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.section2 #Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+.section2 #log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+.section2 span{
+    color: white;
+    font-size: 17px;
+}
+.section2 a{
+    float: right;
+    padding-top: 0px;
+}
+
+/* CSS for footer */
+.footer {
+  display: flex;
+  height:10%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  background-color: #302f49;
+  padding: 10px 535px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 10%;
+}

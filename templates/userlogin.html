@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
+</head>
+<body>
+   <form action = "{{ url_for('loginpg') }}" method = "POST">
+         <br><br><br>
+          EmailAddress
+         <input type = "text" name = "email_address" /></br></br>
+          Password
+         <input type = "password" name = "password" /></br></br>
+         <input type = "submit" value = "log in" />
+      </form>
+</body>
+</html>

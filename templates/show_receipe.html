@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Recipe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
+</head>
+<body>
+  <div class = signout>
+      <a href="/" class="back">LogOut</a>
+      </form>
+  </div>
+  <div class = "image">
+      </img>
+  </div>
+   <script>
+      var picid = {{ pic_nm }}
+      if(picid == 1)
+      {
+         const img = new Image(440, 500); // width, height
+         img.src = "/static/images/1.jpg";
+         document.body.appendChild(img);
+      }
+     else if(picid == 2)
+     {
+         const img = new Image(440,500); // width, height
+         img.src = "/static/images/2.jpg";
+         document.body.appendChild(img);
+     }
+     else
+     {
+         const img = new Image(440, 500); // width, height
+         img.src = "/static/images/bg3.jpeg";
+         document.body.appendChild(img);
+     }
+   </script>
+  <div class = "recipe_random">
+      <h1><u>{{recipe_name}}</u></h1>
+      <table border = "1" cellpadding = "5" cellspacing = "5">
+         <thead>
+            <td><b>Ingredients</b></td>
+            <td><b>Price</b></td>
+         </thead>
+         {% for row in recipe_ingr %}
+            <tr>
+               {% for data in row %}
+                  <td>{{ data }}</td>
+               {% endfor %}
+            </tr>
+         {% endfor %}
+      </table>
+     <h3>How To Cook? </h3>
+     <button type="button" class="swd-button">Like It</button>
+     <button type="button" class="swd-button">Next Recipe</button>
+  </div>
+</body>
+</html>

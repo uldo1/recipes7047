@@ -1,58 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <title>Sample</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}" >
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <title>Food Recipe Main Page</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
 </head>
 <body>
-    <header class="header">
-    <a href="#" class="logo">Developer</a>
-    <nav class="nav-items">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+<!-- Header Menu -->
+<ul class="snip1226">
+  <li class="current"><a href="/" data-hover="Home">Home</a></li>
+  <li><a href="#" data-hover="About Us">About Us</a></li>
+  <li><a href="#" data-hover="Blog">Blog</a></li>
+  <li><a href="/contactus" data-hover="Contact">Contact</a></li>
+</ul>
+
+<!-- Login Box -->
+<div class="login-box">
+  <h2>Login</h2>
+  <form id = "login-form" action = "{{ url_for('loginpg') }}" method = "POST">
+    <div class="user-box">
+      <input type="text" name = "email" placeholder="Email Address" required="">
+      <label>Email Address</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name = "password" placeholder="Password" name="" required="">
+      <label>Password</label>
+    </div>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <input type="submit" value="Login">
+    </a>
+  </form>
+</div>
 </body>
-<main>
-   <div class="section1">
-       2nd
-    <br>
-   </div>
-   <div class="section2">
-      <form id = "login" action = "{{ url_for('loginpg') }}" method = "POST">
-         <br><br><br>
-         <input type = "text" name = "email_address" id="EAddr" placeholder="Email Address" /></br></br>
-         <input type = "password" name = "password" id="Pass" placeholder="Password" /></br></br>
-         <input type="submit" name="log" id="log" value="Sign In">
-        <br><br>
-        <input type="checkbox" id="check">
-        <span>Remember me</span>
-        <br><br>
-        <a href="#">Forgot Password</a>
-      </form>
-   </div>
-</main>
-<footer class="footer">
-  <div class="bottom-links">
-    <div class="links">
-      <span>More Info</span>
-       <font face ="arial" , size="4">
-      <a href="#Bottom">Home|
-      <a href="#Bottom">About|
-      <a href="#Bottom">Contact</a>
-      </font>
-    </div>
-    <div class="links">
-      <span>Social Links</span>
-       <font face = "arial">
-      <a href="#Bottom"><i class="fa fa-facebook"></i></a>
-      <a href="#Bottom"><i class="fa fa-twitter"></i></a>
-      <a href="#Bottom"><i class="fa fa-instagram"></i></a>
-       </font>
-    </div>
-  </div>
-</footer>
 </html>

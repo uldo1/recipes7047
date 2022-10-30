@@ -4,29 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
   </head>
   <body>
-    <div id="location"></div>
-    <script>
-      var div  = document.getElementById("location");
-      function getLocation() {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(showPosition, showError);
-        } else {
-          div.innerHTML = "The Browser Does not Support Geolocation";
-        }
-      }
+    <div class = signout>
+      <h4 align = "right">Welcome, {{ username }}</h4>
+      <a href="/" class="back">LogOut</a>
+    </div>
+     <div class="user_login">
+        <a href="/random" class="btn-11">Random</a>
+        <a href="#" class="btn-11" onclick="ChooseMeFun()">Choose Me</a>
+        <a href="#" class="btn-11">Location</a>
+     </div>
+    <div id="chooseme">
+      <div id="box">
+        <div class="container">
 
-      function showPosition(position) {
-        div.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
-      }
-
-      function showError(error) {
-        if(error.PERMISSION_DENIED){
-            div.innerHTML = "The User have denied the request for Geolocation.";
+          <h3>Please select an option</h3>
+         <ul>
+          <li>
+                 <input type="radio" id="option_one" name="selector" value="Veg Recipes">
+                 <label for="option_one" onClick="window.location.href='/veggie';">Veg Recipes</label>
+           </li>
+           <li>
+                <input type="radio" id="option_two" name="selector" value="NonVeg Recipes">
+                <label for="option_two" onClick="window.location.href='/non_veggie';">Non Veg Recipes</label>
+           </li>
+          </ul>
+         </div>
+      </div>
+      <script>
+        function ChooseMeFun() {
+          el = document.getElementById("chooseme");
+          el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
         }
-      }
-      getLocation();
-    </script>
+      </script>
+    </div>
   </body>
 </html>

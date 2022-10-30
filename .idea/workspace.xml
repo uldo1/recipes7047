@@ -1,106 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1a6420-c73d-4d23-b552-5dda34b3409f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Recipes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/About_Us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Contact_Us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Create_New_Acc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/LogIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/background_pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/delete.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/signin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/signup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/update.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/userlogin.html" afterDir="false" />
+    <list default="true" id="6e881e1b-2fcd-4ce0-b44f-c88671d3dc39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/show_receipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Recipes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recipes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/About_Us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Contact_Us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Create_New_Acc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/LogIn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/delete.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/signin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/signup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/update.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userlogin.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="8d9665e7-02f4-4872-b07b-1ad6eb4af534" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G0ahm5YtEy39jiPmOjXPCm0AdG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2GmHPg7YVv57EnHV4wkkXJZ7ixS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ACER/PycharmProjects/Recipes",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Users/Uldis/PycharmProjects/Recipes",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Recipes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.app" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed1a6420-c73d-4d23-b552-5dda34b3409f" name="Changes" comment="" />
-      <created>1665528077483</created>
+      <changelist id="6e881e1b-2fcd-4ce0-b44f-c88671d3dc39" name="Changes" comment="" />
+      <created>1666986818144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665528077483</updated>
+      <updated>1666986818144</updated>
     </task>
     <servers />
   </component>
@@ -109,19 +68,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
